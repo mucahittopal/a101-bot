@@ -1,5 +1,5 @@
 <?
-function random_user_agent() {
+function randomUserAgent() {
     $browser_freq = array (
         "Internet Explorer" => 24.3,
         "Firefox" => 42.9,
