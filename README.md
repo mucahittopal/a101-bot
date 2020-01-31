@@ -1,4 +1,4 @@
-# a101-bot
+# PHP A101-bot
 A101 zincir marketlerinin online ortamdaki ürünlerini JSON çıktısı alarak kullanabilirsiniz.
 
 
