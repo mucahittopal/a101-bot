@@ -1,4 +1,5 @@
 <?php
+  require_once 'random-user-agent.php'; 
   ini_set( 'max_execution_time', 59 * 60);
   set_time_limit(59 * 60);
 
@@ -8,7 +9,7 @@
   {
   	$tablo=[];
   	$ch = curl_init();
-  	$hc = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36";
+  	$hc = randomUserAgent();
   	curl_setopt($ch, CURLOPT_REFERER, 'http://www.google.com');
   	curl_setopt($ch, CURLOPT_URL, $site.$url);
   	curl_setopt($ch, CURLOPT_USERAGENT, $hc);
